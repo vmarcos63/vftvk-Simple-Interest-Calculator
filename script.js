@@ -1,4 +1,3 @@
-alert("I did it test")
 function compute()
 {
         let principal = document.getElementById('principal').value;
