@@ -11,7 +11,7 @@ function compute()
             principal.focus();
             }
         else {
-        document.getElementById("result").innerHTML="\<br\>\<br\>If you deposit <mark>"+principal+"</mark>,\<br\>at an interest rate of <mark>"+rate+"%</mark>\<br\>You will receive an amount of <mark>"+amount+"</mark>,\<br\>in the year <mark>"+year+"</mark>\<br\>"
+        document.getElementById("result").innerHTML="\<br\>\<br\>If you deposit <mark>"+principal+"</mark>,\<br\>at an interest rate of <mark>"+rate+"%</mark>\<br\>You will receive an amount of <mark>"+amount+"</mark>,\<br\>in the year <mark>"+year+"</mark>\<br\><br\>"
 }}
 
 
