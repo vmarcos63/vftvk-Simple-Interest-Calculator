@@ -6,6 +6,7 @@ function compute()
         var interest = principal*years*rate/100;
         var year = new Date().getFullYear()+parseInt(years);
         let amount = principal*1+interest*1;
+ //amount validation check
         if(principal<1){
             alert("Please enter a positive number");
             principal.focus();
